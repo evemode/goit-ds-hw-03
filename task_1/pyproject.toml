@@ -1,0 +1,18 @@
+[project]
+name = "task-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "evemode",email = "evemod3@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymongo (>=4.14.0,<5.0.0)",
+    "mongoengine (>=0.29.1,<0.30.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
