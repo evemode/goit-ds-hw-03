@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 # from pymongo.mongo_client import MongoClient
 # from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://evemode:111@cluster0.1dv5tt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://evemode:some_password@cluster0.1dv5tt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 connect(db='ElCato', host=uri)
 # Create a new client and connect to the server
 
